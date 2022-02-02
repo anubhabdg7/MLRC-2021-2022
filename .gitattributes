@@ -1,1 +1,2 @@
 segmentation_models/*.pth filter=lfs diff=lfs merge=lfs -text
+pretrained_models/*.pt filter=lfs diff=lfs merge=lfs -text
