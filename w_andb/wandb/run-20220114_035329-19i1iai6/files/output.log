@@ -1,0 +1,619 @@
+
+Preprocess data
+Prepare Dataset: 100%|██████████| 184/184 [00:00<00:00, 608.80it/s]
+/content/drive/MyDrive/Human-Path-Prediction-master (1)/ynet/utils/dataloader.py:35: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(trajectories), meta, scene_list
+Prepare Dataset: 100%|██████████| 11/11 [00:00<00:00, 549.74it/s]
+Epoch:   0%|          | 0/300 [00:00<?, ?it/s]
+Start training
+Epoch 0:
+Val ADE: 199.95938110351562
+Val FDE: 151.5940704345703
+Best Epoch 0:
+Val ADE: 199.95938110351562
+Val FDE: 151.5940704345703
+Epoch:   0%|          | 0/300 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   0%|          | 1/300 [06:45<33:39:28, 405.25s/it]
+Epoch 1:
+Val ADE: 194.90907287597656
+Val FDE: 136.22323608398438
+Best Epoch 1:
+Val ADE: 194.90907287597656
+Val FDE: 136.22323608398438
+Epoch:   0%|          | 1/300 [06:45<33:39:28, 405.25s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   1%|          | 2/300 [13:28<33:29:34, 404.61s/it]
+Epoch 2:
+Val ADE: 178.18588256835938
+Val FDE: 129.32089233398438
+Best Epoch 2:
+Val ADE: 178.18588256835938
+Val FDE: 129.32089233398438
+Epoch:   1%|          | 2/300 [13:28<33:29:34, 404.61s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   1%|          | 3/300 [20:11<33:20:50, 404.21s/it]
+Epoch 3:
+Val ADE: 177.77613830566406
+Val FDE: 130.93276977539062
+Best Epoch 3:
+Val ADE: 177.77613830566406
+Val FDE: 130.93276977539062
+Epoch:   1%|          | 3/300 [20:11<33:20:50, 404.21s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   1%|▏         | 4/300 [26:55<33:12:58, 403.98s/it]
+Epoch 4:
+Val ADE: 170.96978759765625
+Val FDE: 123.34895324707031
+Best Epoch 4:
+Val ADE: 170.96978759765625
+Val FDE: 123.34895324707031
+Epoch:   1%|▏         | 4/300 [26:55<33:12:58, 403.98s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   2%|▏         | 5/300 [33:38<33:04:50, 403.70s/it]
+Epoch 5:
+Val ADE: 108.94500732421875
+Val FDE: 108.04570770263672
+Best Epoch 5:
+Val ADE: 108.94500732421875
+Val FDE: 108.04570770263672
+Epoch:   2%|▏         | 5/300 [33:38<33:04:50, 403.70s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   2%|▏         | 6/300 [40:21<32:57:11, 403.51s/it]
+Epoch 6:
+Val ADE: 104.87445831298828
+Val FDE: 115.62568664550781
+Best Epoch 6:
+Val ADE: 104.87445831298828
+Val FDE: 115.62568664550781
+Epoch:   2%|▏         | 6/300 [40:21<32:57:11, 403.51s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   2%|▏         | 7/300 [47:04<32:49:55, 403.40s/it]
+Epoch 7:
+Val ADE: 95.4015884399414
+Val FDE: 113.69058990478516
+Best Epoch 7:
+Val ADE: 95.4015884399414
+Val FDE: 113.69058990478516
+Epoch:   2%|▏         | 7/300 [47:04<32:49:55, 403.40s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   3%|▎         | 8/300 [53:47<32:42:33, 403.26s/it]
+Epoch 8:
+Val ADE: 81.49713897705078
+Val FDE: 93.872802734375
+Best Epoch 8:
+Val ADE: 81.49713897705078
+Val FDE: 93.872802734375
+Epoch:   3%|▎         | 8/300 [53:47<32:42:33, 403.26s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   3%|▎         | 9/300 [1:00:30<32:35:16, 403.15s/it]
+Epoch 9:
+Val ADE: 88.61940002441406
+
+Epoch:   3%|▎         | 10/300 [1:07:12<32:27:18, 402.89s/it]
+Epoch 10:
+Val ADE: 74.82451629638672
+Val FDE: 92.140869140625
+Best Epoch 10:
+Val ADE: 74.82451629638672
+Val FDE: 92.140869140625
+Epoch:   3%|▎         | 10/300 [1:07:12<32:27:18, 402.89s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   4%|▎         | 11/300 [1:13:55<32:20:21, 402.84s/it]
+Epoch 11:
+Val ADE: 88.16387939453125
+
+Epoch:   4%|▍         | 12/300 [1:20:37<32:12:35, 402.62s/it]
+Epoch 12:
+Val ADE: 78.02485656738281
+
+Epoch:   4%|▍         | 13/300 [1:27:19<32:05:09, 402.47s/it]
+Epoch 13:
+Val ADE: 81.55504608154297
+
+Epoch:   5%|▍         | 14/300 [1:34:01<31:57:40, 402.31s/it]
+Epoch 14:
+Val ADE: 75.58478546142578
+
+
+Epoch:   5%|▌         | 16/300 [1:47:25<31:43:30, 402.15s/it]
+Epoch 15:
+Val ADE: 77.04114532470703
+Val FDE: 91.53530883789062
+Epoch 16:
+Val ADE: 77.37202453613281
+
+Epoch:   6%|▌         | 17/300 [1:54:07<31:36:55, 402.17s/it]
+Epoch 17:
+Val ADE: 74.98780822753906
+
+Epoch:   6%|▌         | 18/300 [2:00:49<31:30:08, 402.16s/it]
+Epoch 18:
+Val ADE: 77.3653335571289
+
+Epoch:   6%|▋         | 19/300 [2:07:31<31:23:09, 402.10s/it]
+Epoch 19:
+Val ADE: 72.39273834228516
+Val FDE: 84.6434097290039
+Best Epoch 19:
+Val ADE: 72.39273834228516
+Val FDE: 84.6434097290039
+Epoch:   6%|▋         | 19/300 [2:07:31<31:23:09, 402.10s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   7%|▋         | 20/300 [2:14:14<31:17:32, 402.33s/it]
+Epoch 20:
+Val ADE: 72.26514434814453
+Val FDE: 86.9666519165039
+Best Epoch 20:
+Val ADE: 72.26514434814453
+Val FDE: 86.9666519165039
+Epoch:   7%|▋         | 20/300 [2:14:14<31:17:32, 402.33s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   7%|▋         | 21/300 [2:20:57<31:11:34, 402.49s/it]
+Epoch 21:
+Val ADE: 73.91926574707031
+
+Epoch:   7%|▋         | 22/300 [2:27:39<31:04:22, 402.38s/it]
+Epoch 22:
+Val ADE: 68.48294067382812
+Val FDE: 83.64659118652344
+Best Epoch 22:
+Val ADE: 68.48294067382812
+Val FDE: 83.64659118652344
+Epoch:   7%|▋         | 22/300 [2:27:39<31:04:22, 402.38s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   8%|▊         | 23/300 [2:34:23<30:59:13, 402.72s/it]
+Epoch 23:
+Val ADE: 73.37871551513672
+
+Epoch:   8%|▊         | 24/300 [2:41:05<30:51:37, 402.53s/it]
+Epoch 24:
+Val ADE: 71.1017074584961
+
+Epoch:   8%|▊         | 25/300 [2:47:47<30:44:16, 402.39s/it]
+Epoch 25:
+Val ADE: 78.71881103515625
+
+Epoch:   9%|▊         | 26/300 [2:54:29<30:37:02, 402.27s/it]
+Epoch 26:
+Val ADE: 75.50151062011719
+
+Epoch:   9%|▉         | 27/300 [3:01:10<30:28:52, 401.95s/it]
+Epoch 27:
+Val ADE: 73.29022216796875
+
+
+Epoch:  10%|▉         | 29/300 [3:14:32<30:13:37, 401.54s/it]
+Epoch 28:
+Val ADE: 69.27120971679688
+Val FDE: 88.02701568603516
+Epoch 29:
+Val ADE: 72.02544403076172
+
+Epoch:  10%|█         | 30/300 [3:21:13<30:06:15, 401.39s/it]
+Epoch 30:
+Val ADE: 70.0798568725586
+
+
+Epoch:  11%|█         | 32/300 [3:34:35<29:52:17, 401.26s/it]
+Epoch 31:
+Val ADE: 71.34654235839844
+Val FDE: 86.95125579833984
+Epoch 32:
+Val ADE: 72.40081787109375
+
+Epoch:  11%|█         | 33/300 [3:41:17<29:45:25, 401.22s/it]
+Epoch 33:
+Val ADE: 70.59326934814453
+
+Epoch:  11%|█▏        | 34/300 [3:47:57<29:38:17, 401.12s/it]
+Epoch 34:
+Val ADE: 71.62965393066406
+
+
+Epoch:  12%|█▏        | 36/300 [4:01:20<29:24:56, 401.12s/it]
+Epoch 35:
+Val ADE: 69.18639373779297
+Val FDE: 90.71053314208984
+Epoch 36:
+Val ADE: 69.73863983154297
+
+Epoch:  12%|█▏        | 37/300 [4:08:01<29:18:00, 401.06s/it]
+Epoch 37:
+Val ADE: 69.5045394897461
+
+
+Epoch:  13%|█▎        | 39/300 [4:21:23<29:04:30, 401.03s/it]
+Epoch 38:
+Val ADE: 71.05718231201172
+Val FDE: 94.3313980102539
+Epoch 39:
+Val ADE: 70.36595153808594
+
+Epoch:  13%|█▎        | 40/300 [4:28:04<28:57:47, 401.03s/it]
+Epoch 40:
+Val ADE: 69.28643035888672
+
+Epoch:  14%|█▎        | 41/300 [4:34:45<28:50:59, 401.00s/it]
+Epoch 41:
+Val ADE: 69.97037506103516
+
+
+Epoch:  14%|█▍        | 43/300 [4:48:07<28:37:40, 401.01s/it]
+Epoch 42:
+Val ADE: 71.09637451171875
+Val FDE: 95.24037170410156
+Epoch 43:
+Val ADE: 71.5362548828125
+
+Epoch:  15%|█▍        | 44/300 [4:54:48<28:30:51, 400.98s/it]
+Epoch 44:
+Val ADE: 69.09677124023438
+
+
+Epoch:  15%|█▌        | 46/300 [5:08:09<28:17:12, 400.91s/it]
+Epoch 45:
+Val ADE: 70.4814682006836
+Val FDE: 89.81661224365234
+Epoch 46:
+Val ADE: 67.15872955322266
+Val FDE: 89.72196197509766
+Best Epoch 46:
+Val ADE: 67.15872955322266
+Val FDE: 89.72196197509766
+Epoch:  15%|█▌        | 46/300 [5:08:09<28:17:12, 400.91s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:  16%|█▌        | 47/300 [5:14:51<28:11:14, 401.09s/it]
+Epoch 47:
+Val ADE: 70.25515747070312
+
+
+Epoch:  16%|█▋        | 49/300 [5:28:13<27:57:54, 401.09s/it]
+Epoch 48:
+Val ADE: 69.56620788574219
+Val FDE: 89.1034164428711
+Epoch 49:
+Val ADE: 69.91651916503906
+
+Epoch:  17%|█▋        | 50/300 [5:34:54<27:51:28, 401.15s/it]
+Epoch 50:
+Val ADE: 76.02408599853516
+
+Epoch:  17%|█▋        | 51/300 [5:41:35<27:44:55, 401.19s/it]
+Epoch 51:
+Val ADE: 69.49793243408203
+
+Epoch:  17%|█▋        | 52/300 [5:48:17<27:38:30, 401.25s/it]
+Epoch 52:
+Val ADE: 71.2461166381836
+
+Epoch:  18%|█▊        | 53/300 [5:54:58<27:31:58, 401.29s/it]
+Epoch 53:
+Val ADE: 73.42993927001953
+
+Epoch:  18%|█▊        | 54/300 [6:01:39<27:25:16, 401.29s/it]
+Epoch 54:
+Val ADE: 67.45207214355469
+
+Epoch:  18%|█▊        | 55/300 [6:08:21<27:18:59, 401.39s/it]
+Epoch 55:
+Val ADE: 70.5931167602539
+
+Epoch:  19%|█▊        | 56/300 [6:15:03<27:12:27, 401.42s/it]
+Epoch 56:
+Val ADE: 70.59461212158203
+
+Epoch:  19%|█▉        | 57/300 [6:21:44<27:05:52, 401.45s/it]
+Epoch 57:
+Val ADE: 67.90655517578125
+
+
+Epoch:  20%|█▉        | 59/300 [6:35:07<26:52:52, 401.55s/it]
+Epoch 58:
+Val ADE: 71.95377349853516
+Val FDE: 90.81600189208984
+Epoch 59:
+Val ADE: 71.85799407958984
+
+Epoch:  20%|██        | 60/300 [6:41:49<26:46:06, 401.53s/it]
+Epoch 60:
+Val ADE: 71.88788604736328
+
+
+Epoch:  21%|██        | 62/300 [6:55:13<26:33:31, 401.73s/it]
+Epoch 61:
+Val ADE: 71.41923522949219
+Val FDE: 93.15564727783203
+Epoch 62:
+Val ADE: 73.39437103271484
+
+
+Epoch:  21%|██▏       | 64/300 [7:08:36<26:19:31, 401.57s/it]
+Epoch 63:
+Val ADE: 69.5150375366211
+Val FDE: 89.42791748046875
+Epoch 64:
+Val ADE: 68.93142700195312
+
+
+Epoch:  22%|██▏       | 66/300 [7:21:59<26:05:59, 401.53s/it]
+Epoch 65:
+Val ADE: 72.38018798828125
+Val FDE: 92.91049194335938
+Epoch 66:
+Val ADE: 71.06673431396484
+
+Epoch:  22%|██▏       | 67/300 [7:28:40<25:59:19, 401.54s/it]
+Epoch 67:
+Val ADE: 72.56028747558594
+
+
+Epoch:  23%|██▎       | 69/300 [7:42:03<25:45:51, 401.52s/it]
+Epoch 68:
+Val ADE: 70.51934814453125
+Val FDE: 101.1161880493164
+Epoch 69:
+Val ADE: 69.91883087158203
+
+
+Epoch:  24%|██▎       | 71/300 [7:55:26<25:32:33, 401.55s/it]
+Epoch 70:
+Val ADE: 72.42325592041016
+Val FDE: 98.18539428710938
+Epoch 71:
+Val ADE: 71.59980773925781
+
+
+Epoch:  24%|██▍       | 73/300 [8:08:49<25:18:47, 401.44s/it]
+Epoch 72:
+Val ADE: 70.88339233398438
+Val FDE: 95.0393295288086
+Epoch 73:
+Val ADE: 75.23486328125
+
+
+Epoch:  25%|██▌       | 75/300 [8:22:12<25:05:36, 401.49s/it]
+Epoch 74:
+Val ADE: 71.93806457519531
+Val FDE: 92.5078353881836
+Epoch 75:
+Val ADE: 74.57003021240234
+
+
+Epoch:  26%|██▌       | 77/300 [8:35:35<24:52:32, 401.58s/it]
+Epoch 76:
+Val ADE: 73.03634643554688
+
+Epoch:  26%|██▌       | 78/300 [8:42:17<24:45:48, 401.57s/it]
+Epoch 77:
+Val ADE: 73.06697082519531
+
+Epoch:  26%|██▋       | 79/300 [8:48:58<24:38:59, 401.54s/it]
+Epoch 78:
+Val ADE: 72.63758087158203
+Val FDE: 103.39778137207031
+Epoch 79:
+Val ADE: 69.2372055053711
+
+
+Epoch:  27%|██▋       | 81/300 [9:02:21<24:25:10, 401.42s/it]
+Epoch 80:
+Val ADE: 75.48846435546875
+Val FDE: 99.41781616210938
+Epoch 81:
+Val ADE: 74.8885726928711
+
+
+Epoch:  28%|██▊       | 83/300 [9:15:43<24:11:18, 401.28s/it]
+Epoch 82:
+Val ADE: 71.33759307861328
+
+Epoch:  28%|██▊       | 84/300 [9:22:25<24:04:36, 401.28s/it]
+Epoch 83:
+Val ADE: 73.51732635498047
+Val FDE: 100.55174255371094
+Epoch 84:
+Val ADE: 71.82894134521484
+
+
+Epoch:  29%|██▊       | 86/300 [9:35:47<23:51:05, 401.24s/it]
+Epoch 85:
+Val ADE: 72.65489196777344
+
+Epoch:  29%|██▉       | 87/300 [9:42:28<23:44:23, 401.24s/it]
+Epoch 86:
+Val ADE: 70.43146514892578
+
+Epoch:  29%|██▉       | 88/300 [9:49:09<23:37:37, 401.21s/it]
+Epoch 87:
+Val ADE: 71.25991821289062
+
+Epoch:  30%|██▉       | 89/300 [9:55:51<23:30:59, 401.23s/it]
+Epoch 88:
+Val ADE: 71.81893920898438
+Val FDE: 91.19255065917969
+Epoch 89:
+Val ADE: 72.61296081542969
+
+
+Epoch:  30%|███       | 91/300 [10:09:13<23:17:52, 401.30s/it]
+Epoch 90:
+Val ADE: 85.899658203125
+Val FDE: 110.95478057861328
+Epoch 91:
+Val ADE: 71.48656463623047
+
+
+Epoch:  31%|███       | 93/300 [10:22:36<23:04:39, 401.35s/it]
+Epoch 92:
+Val ADE: 74.63341522216797
+Val FDE: 102.44104766845703
+Epoch 93:
+Val ADE: 69.77235412597656
+
+
+Epoch:  32%|███▏      | 95/300 [10:35:59<22:51:22, 401.38s/it]
+Epoch 94:
+Val ADE: 76.70822143554688
+
+Epoch:  32%|███▏      | 96/300 [10:42:41<22:45:08, 401.51s/it]
+Epoch 95:
+Val ADE: 74.8729248046875
+Val FDE: 106.59799194335938
+Epoch 96:
+Val ADE: 75.45730590820312
+
+
+Epoch:  33%|███▎      | 98/300 [10:56:04<22:32:19, 401.68s/it]
+Epoch 97:
+Val ADE: 76.71601104736328
+
+Epoch:  33%|███▎      | 99/300 [11:02:46<22:25:39, 401.69s/it]
+Epoch 98:
+Val ADE: 74.63397979736328
+Val FDE: 103.62760162353516
+Epoch 99:
+Val ADE: 73.84461212158203
+
+
+Epoch:  34%|███▎      | 101/300 [11:17:24<23:25:46, 423.85s/it]
+Epoch 100:
+Val ADE: 72.75630187988281
+
+Epoch:  34%|███▍      | 102/300 [11:25:19<24:09:36, 439.27s/it]
+Epoch 101:
+Val ADE: 74.77616119384766
+
+Epoch:  34%|███▍      | 103/300 [11:33:13<24:36:58, 449.84s/it]
+Epoch 102:
+Val ADE: 81.2897720336914
+Val FDE: 110.81108856201172
+Epoch 103:
+Val ADE: 73.5584487915039
+
+
+Epoch:  35%|███▌      | 105/300 [11:49:00<25:00:51, 461.80s/it]
+Epoch 104:
+Val ADE: 83.48639678955078
+
+Epoch:  35%|███▌      | 106/300 [11:56:53<25:04:17, 465.24s/it]
+Epoch 105:
+Val ADE: 72.21414184570312
+
+Epoch:  36%|███▌      | 107/300 [12:04:46<25:04:20, 467.67s/it]
+Epoch 106:
+Val ADE: 74.6891860961914
+
+Epoch:  36%|███▌      | 108/300 [12:12:40<25:02:00, 469.38s/it]
+Epoch 107:
+Val ADE: 74.50888061523438
+
+Epoch:  36%|███▋      | 109/300 [12:20:33<24:58:13, 470.64s/it]
+Epoch 108:
+Val ADE: 75.29456329345703
+
+Epoch:  37%|███▋      | 110/300 [12:28:27<24:53:02, 471.49s/it]
+Epoch 109:
+Val ADE: 74.2764663696289
+
+Epoch:  37%|███▋      | 111/300 [12:36:21<24:47:14, 472.14s/it]
+Epoch 110:
+Val ADE: 73.1433334350586
+
+Epoch:  37%|███▋      | 112/300 [12:44:14<24:40:41, 472.56s/it]
+Epoch 111:
+Val ADE: 78.40518951416016
+
+Epoch:  38%|███▊      | 113/300 [12:52:08<24:33:54, 472.91s/it]
+Epoch 112:
+Val ADE: 77.45914459228516
+Val FDE: 111.01871490478516
+Epoch 113:
+Val ADE: 73.05150604248047
+
+Epoch:  38%|███▊      | 114/300 [13:00:01<24:26:42, 473.13s/it]
+Epoch 114:
+Val ADE: 69.67597961425781
+
+Epoch:  38%|███▊      | 115/300 [13:07:55<24:19:35, 473.38s/it]
+Epoch 115:
+Val ADE: 76.04293060302734
+
+
+Epoch:  39%|███▉      | 117/300 [13:23:43<24:04:23, 473.57s/it]
+Epoch 116:
+Val ADE: 78.00582122802734
+Val FDE: 107.78924560546875
+Epoch 117:
+Val ADE: 75.86005401611328
+
+Epoch:  39%|███▉      | 118/300 [13:31:37<23:56:44, 473.65s/it]
+Epoch 118:
+Val ADE: 73.31513977050781
+
+Epoch:  40%|███▉      | 119/300 [13:39:31<23:49:01, 473.71s/it]
+Epoch 119:
+Val ADE: 74.25106048583984
+
+Epoch:  40%|████      | 120/300 [13:47:25<23:42:03, 474.02s/it]
+Epoch 120:
+Val ADE: 74.708984375
+
+Epoch:  40%|████      | 121/300 [13:55:20<23:34:45, 474.22s/it]
+Epoch 121:
+Val ADE: 72.85679626464844
+
+Epoch:  41%|████      | 122/300 [14:03:15<23:27:21, 474.39s/it]
+Epoch 122:
+Val ADE: 72.90583038330078
+
+Epoch:  41%|████      | 123/300 [14:11:10<23:19:48, 474.51s/it]
+Epoch 123:
+Val ADE: 76.63829040527344
+
+Epoch:  41%|████▏     | 124/300 [14:19:04<23:11:53, 474.51s/it]
+Epoch 124:
+Val ADE: 87.65267181396484
+
+Epoch:  42%|████▏     | 125/300 [14:26:59<23:04:41, 474.75s/it]
+Epoch 125:
+Val ADE: 74.74134826660156
+
+Epoch:  42%|████▏     | 126/300 [14:34:54<22:56:39, 474.71s/it]
+Epoch 126:
+Val ADE: 75.49608612060547
+
+Epoch:  42%|████▏     | 127/300 [14:42:49<22:48:56, 474.78s/it]
+Epoch 127:
+Val ADE: 75.46429443359375
+
+Epoch:  43%|████▎     | 128/300 [14:50:44<22:41:09, 474.82s/it]
+Epoch 128:
+Val ADE: 76.33301544189453
+
+Epoch:  43%|████▎     | 129/300 [14:58:39<22:33:46, 475.01s/it]
+Epoch 129:
+Val ADE: 75.90038299560547
+
+Epoch:  43%|████▎     | 130/300 [15:06:34<22:25:51, 475.01s/it]
+Epoch 130:
+Val ADE: 80.56269836425781
+
+Epoch:  44%|████▎     | 131/300 [15:14:29<22:17:32, 474.87s/it]
+Epoch 131:
+Val ADE: 72.30876922607422
+
+Epoch:  44%|████▍     | 132/300 [15:22:23<22:09:06, 474.68s/it]
+Epoch 132:
+Val ADE: 78.62312316894531
+
+Epoch:  44%|████▍     | 133/300 [15:30:17<22:00:53, 474.57s/it]
+Epoch 133:
+Val ADE: 77.29943084716797
+
+Epoch:  45%|████▍     | 134/300 [15:38:12<21:52:45, 474.49s/it]
+Epoch 134:
+Val ADE: 79.67084503173828
+
+Epoch:  45%|████▌     | 135/300 [15:46:06<21:44:54, 474.51s/it]
+Epoch 135:
+Val ADE: 78.09961700439453
+
+Epoch:  45%|████▌     | 136/300 [15:54:00<21:36:29, 474.33s/it]
+Epoch 136:
+Val ADE: 76.0208740234375
+
+Epoch:  46%|████▌     | 137/300 [16:01:54<21:28:17, 474.22s/it]
+Epoch 137:
+Val ADE: 80.53321075439453
+
+
+Epoch:  46%|████▋     | 139/300 [16:17:42<21:12:03, 474.06s/it]
+Epoch 138:
+Val ADE: 73.50929260253906

@@ -1,0 +1,134 @@
+2022-02-01 03:41:04,505 INFO    MainThread:435 [wandb_setup.py:_flush():71] setting env: {}
+2022-02-01 03:41:04,506 INFO    MainThread:435 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-02-01 03:41:04,506 INFO    MainThread:435 [wandb_setup.py:_flush():71] setting login settings: {'api_key': '***REDACTED***'}
+2022-02-01 03:41:04,507 INFO    MainThread:435 [wandb_init.py:_log_setup():371] Logging user logs to w_andb/wandb/run-20220201_034103-d1d9e8hq/logs/debug.log
+2022-02-01 03:41:04,507 INFO    MainThread:435 [wandb_init.py:_log_setup():372] Logging internal logs to w_andb/wandb/run-20220201_034103-d1d9e8hq/logs/debug-internal.log
+2022-02-01 03:41:04,507 INFO    MainThread:435 [wandb_init.py:_jupyter_setup():321] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f497ce16b90>
+2022-02-01 03:41:04,508 INFO    MainThread:435 [wandb_init.py:init():404] calling init triggers
+2022-02-01 03:41:04,508 INFO    MainThread:435 [wandb_init.py:init():411] wandb.init called with sweep_config: {}
+config: {'resize': 0.25, 'batch_size': 8, 'viz_epoch': 10, 'learning_rate': 0.0001, 'num_epochs': 300, 'encoder_channels': [32, 32, 64, 64, 64], 'decoder_channels': [64, 64, 64, 32, 32], 'waypoints': [14, 29], 'temperature': 1.8, 'segmentation_model_fp': 'segmentation_models/SDD_segmentation.pth', 'semantic_classes': 6, 'loss_scale': 1000, 'kernlen': 31, 'nsig': 4, 'use_features_only': False, 'unfreeze': 100, 'use_TTST': True, 'rel_threshold': 0.002, 'use_CWS': True, 'CWS_params': {'sigma_factor': 6, 'ratio': 2, 'rot': True}}
+2022-02-01 03:41:04,508 INFO    MainThread:435 [wandb_init.py:init():460] starting backend
+2022-02-01 03:41:04,508 INFO    MainThread:435 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-02-01 03:41:04,557 INFO    MainThread:435 [backend.py:ensure_launched():216] starting backend process...
+2022-02-01 03:41:04,588 INFO    MainThread:435 [backend.py:ensure_launched():222] started backend process with pid: 531
+2022-02-01 03:41:04,591 INFO    MainThread:435 [wandb_init.py:init():469] backend started and connected
+2022-02-01 03:41:04,637 INFO    MainThread:435 [wandb_run.py:_label_probe_notebook():911] probe notebook
+2022-02-01 03:41:06,679 INFO    MainThread:435 [wandb_init.py:init():533] updated telemetry
+2022-02-01 03:41:06,687 INFO    MainThread:435 [wandb_init.py:init():563] communicating current version
+2022-02-01 03:41:06,761 INFO    MainThread:435 [wandb_init.py:init():568] got version response 
+2022-02-01 03:41:06,761 INFO    MainThread:435 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-02-01 03:41:07,076 INFO    MainThread:435 [wandb_init.py:init():606] starting run threads in backend
+2022-02-01 03:41:09,733 INFO    MainThread:435 [wandb_run.py:_console_start():1810] atexit reg
+2022-02-01 03:41:09,739 INFO    MainThread:435 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.WRAP
+2022-02-01 03:41:09,739 INFO    MainThread:435 [wandb_run.py:_redirect():1721] Wrapping output streams.
+2022-02-01 03:41:09,746 INFO    MainThread:435 [wandb_run.py:_redirect():1745] Redirects installed.
+2022-02-01 03:41:09,746 INFO    MainThread:435 [wandb_init.py:init():633] run started, returning control to user process
+2022-02-01 03:41:09,746 INFO    MainThread:435 [wandb_watch.py:watch():43] Watching
+2022-02-01 03:41:09,759 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:41:09,759 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:41:12,191 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f497c57f990>
+2022-02-01 03:41:16,051 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:42:19,451 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:42:19,451 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:42:21,285 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4940b4e0d0>
+2022-02-01 03:44:39,106 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:44:39,110 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:44:39,111 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:44:40,837 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4940ad3d10>
+2022-02-01 03:44:46,594 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:44:46,608 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:44:46,609 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:44:48,592 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4940ad4410>
+2022-02-01 03:44:48,916 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:44:52,141 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:44:52,142 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:44:54,097 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4940b378d0>
+2022-02-01 03:44:54,138 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:44:54,156 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:44:54,157 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:44:56,647 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4940b35990>
+2022-02-01 03:44:56,678 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:44:57,120 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:44:57,121 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:44:58,973 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4940a796d0>
+2022-02-01 03:45:01,629 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:45:10,572 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:45:10,573 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:45:12,752 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f49409c7410>
+2022-02-01 03:50:22,411 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:50:22,415 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:50:22,415 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:50:24,367 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931c7bb90>
+2022-02-01 03:50:30,201 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:50:30,215 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:50:30,215 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:50:32,009 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4940a21e10>
+2022-02-01 03:50:34,217 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:50:37,328 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:50:37,328 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:50:39,081 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931c7b8d0>
+2022-02-01 03:50:39,360 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:50:39,377 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:50:39,378 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:50:41,692 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931c7bc50>
+2022-02-01 03:50:43,467 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:50:43,903 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:50:43,903 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:50:46,158 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931b9bbd0>
+2022-02-01 03:51:42,226 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:51:45,516 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:51:45,516 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:51:47,773 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931b78610>
+2022-02-01 03:52:06,619 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:52:06,623 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:52:06,623 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:52:08,633 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931b1b7d0>
+2022-02-01 03:52:14,829 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:52:14,841 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:52:14,841 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:52:16,821 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931b3cd50>
+2022-02-01 03:52:24,460 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:52:27,683 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:52:27,684 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:52:29,454 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931b1bd90>
+2022-02-01 03:52:34,858 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:52:35,274 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:52:35,274 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:52:37,321 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931ab6d10>
+2022-02-01 03:52:40,247 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:52:40,899 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:52:40,900 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:52:42,947 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931c04bd0>
+2022-02-01 03:52:47,717 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:52:47,726 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:52:47,726 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:52:49,681 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f49319f8f90>
+2022-02-01 03:53:26,994 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:53:27,003 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:53:27,003 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:53:29,156 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f493189a5d0>
+2022-02-01 03:53:55,082 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:53:55,086 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:53:55,087 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:53:57,092 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f49319fe2d0>
+2022-02-01 03:54:02,814 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:54:02,825 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:54:02,826 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:54:04,590 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f493181df50>
+2022-02-01 03:54:06,559 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:54:09,672 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:54:09,673 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:54:11,452 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931b27b50>
+2022-02-01 03:54:15,264 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:54:15,681 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:54:15,682 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:54:17,068 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f49317c94d0>
+2022-02-01 03:54:21,205 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:54:21,216 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:54:21,216 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:54:22,919 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931aa7550>
+2022-02-01 03:54:59,598 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend
+2022-02-01 03:54:59,609 INFO    MainThread:435 [wandb_init.py:_pause_backend():284] pausing backend
+2022-02-01 03:54:59,609 INFO    MainThread:435 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-02-01 03:55:01,589 INFO    MainThread:435 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4931c1d410>
+2022-02-01 03:55:08,277 INFO    MainThread:435 [wandb_init.py:_resume_backend():293] resuming backend

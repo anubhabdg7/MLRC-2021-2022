@@ -1,0 +1,220 @@
+
+Preprocess data
+Prepare Dataset: 100%|██████████| 208/208 [00:00<00:00, 1114.46it/s]
+/content/drive/MyDrive/Human-Path-Prediction-master (1)/ynet/utils/dataloader.py:38: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(trajectories), meta, scene_list
+Prepare Dataset: 100%|██████████| 7/7 [00:00<00:00, 755.26it/s]
+Start training
+208
+Epoch:   0%|          | 0/300 [00:00<?, ?it/s]
+Epoch 0:
+Val ADE: 46.728084564208984
+Val FDE: 12.003087997436523
+Best Epoch 0:
+Val ADE: 46.728084564208984
+Val FDE: 12.003087997436523
+Epoch:   0%|          | 0/300 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   0%|          | 1/300 [04:59<24:52:22, 299.47s/it]
+Epoch 1:
+Val ADE: 27.19512367248535
+Val FDE: 12.149396896362305
+Best Epoch 1:
+Val ADE: 27.19512367248535
+Val FDE: 12.149396896362305
+Epoch:   0%|          | 1/300 [04:59<24:52:22, 299.47s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   1%|          | 2/300 [09:55<24:42:51, 298.56s/it]
+Epoch 2:
+Val ADE: 25.90699577331543
+Val FDE: 11.663228034973145
+Best Epoch 2:
+Val ADE: 25.90699577331543
+Val FDE: 11.663228034973145
+Epoch:   1%|          | 2/300 [09:55<24:42:51, 298.56s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   1%|          | 3/300 [14:52<24:34:38, 297.91s/it]
+Epoch 3:
+Val ADE: 31.024559020996094
+
+
+Epoch:   2%|▏         | 5/300 [24:43<24:19:27, 296.84s/it]
+Epoch 4:
+Val ADE: 30.964492797851562
+Val FDE: 11.996405601501465
+Epoch 5:
+Val ADE: 37.131629943847656
+
+
+Epoch:   2%|▏         | 7/300 [34:35<24:06:59, 296.31s/it]
+Epoch 6:
+Val ADE: 53.394081115722656
+
+Epoch:   3%|▎         | 8/300 [39:31<24:01:18, 296.16s/it]
+Epoch 7:
+Val ADE: 34.1513557434082
+Val FDE: 11.744614601135254
+Epoch 8:
+Val ADE: 40.3160400390625
+
+Epoch:   3%|▎         | 9/300 [44:27<23:55:49, 296.05s/it]
+Epoch 9:
+Val ADE: 22.454389572143555
+Val FDE: 14.934612274169922
+Best Epoch 9:
+Val ADE: 22.454389572143555
+Val FDE: 14.934612274169922
+Epoch:   3%|▎         | 9/300 [44:27<23:55:49, 296.05s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   3%|▎         | 10/300 [49:23<23:51:21, 296.14s/it]
+Epoch 10:
+Val ADE: 31.43441390991211
+
+Epoch:   4%|▎         | 11/300 [54:19<23:45:49, 296.02s/it]
+Epoch 11:
+Val ADE: 15.989091873168945
+Val FDE: 20.102924346923828
+Best Epoch 11:
+Val ADE: 15.989091873168945
+Epoch:   4%|▎         | 11/300 [54:19<23:45:49, 296.02s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   4%|▍         | 12/300 [59:15<23:41:14, 296.09s/it]
+Saved model to: saved_models/Ynet.pt
+Epoch 12:
+Val ADE: 14.043147087097168
+Val FDE: 25.685691833496094
+Best Epoch 12:
+Val ADE: 14.043147087097168
+Epoch:   4%|▍         | 12/300 [59:15<23:41:14, 296.09s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   4%|▍         | 13/300 [1:04:11<23:36:39, 296.16s/it]
+Saved model to: saved_models/Ynet.pt
+Epoch 13:
+Val ADE: 10.889498710632324
+Val FDE: 28.77939796447754
+Best Epoch 13:
+Val ADE: 10.889498710632324
+Epoch:   4%|▍         | 13/300 [1:04:11<23:36:39, 296.16s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   5%|▍         | 14/300 [1:09:08<23:31:53, 296.20s/it]
+
+Epoch:   5%|▌         | 15/300 [1:14:03<23:26:18, 296.07s/it]
+Epoch 14:
+Val ADE: 11.599390983581543
+
+Epoch:   5%|▌         | 16/300 [1:18:59<23:20:47, 295.94s/it]
+Epoch 15:
+Val ADE: 14.125131607055664
+
+Epoch:   6%|▌         | 17/300 [1:23:55<23:15:30, 295.87s/it]
+Epoch 16:
+Val ADE: 12.48178768157959
+Val FDE: 31.758148193359375
+Epoch 17:
+Val ADE: 10.41066837310791
+Val FDE: 27.296403884887695
+Best Epoch 17:
+Val ADE: 10.41066837310791
+Epoch:   6%|▌         | 17/300 [1:23:55<23:15:30, 295.87s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   6%|▌         | 18/300 [1:28:51<23:11:11, 296.00s/it]
+
+Epoch:   6%|▋         | 19/300 [1:33:47<23:05:45, 295.89s/it]
+Epoch 18:
+Val ADE: 10.898679733276367
+Epoch:   6%|▋         | 19/300 [1:33:47<23:05:45, 295.89s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   7%|▋         | 20/300 [1:38:43<23:01:26, 296.02s/it]
+Epoch 19:
+Val ADE: 7.5381083488464355
+Val FDE: 18.10328483581543
+Best Epoch 19:
+Val ADE: 7.5381083488464355
+Val FDE: 18.10328483581543
+
+Epoch:   7%|▋         | 21/300 [1:43:39<22:56:02, 295.92s/it]
+Epoch 20:
+Val ADE: 7.790593147277832
+Epoch:   7%|▋         | 21/300 [1:43:39<22:56:02, 295.92s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   7%|▋         | 22/300 [1:48:35<22:51:35, 296.03s/it]
+Epoch 21:
+Val ADE: 6.51310920715332
+Val FDE: 14.263916969299316
+Best Epoch 21:
+Val ADE: 6.51310920715332
+Val FDE: 14.263916969299316
+Epoch:   7%|▋         | 22/300 [1:48:35<22:51:35, 296.03s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   8%|▊         | 23/300 [1:53:31<22:47:06, 296.13s/it]
+Epoch 22:
+Val ADE: 6.500685214996338
+Val FDE: 14.249929428100586
+Best Epoch 22:
+Val ADE: 6.500685214996338
+Val FDE: 14.249929428100586
+Saved model to: saved_models/Ynet.pt
+Epoch 23:
+Val ADE: 6.882211208343506
+
+Epoch:   8%|▊         | 24/300 [1:58:27<22:41:31, 295.98s/it]
+Epoch 24:
+Val ADE: 6.378479480743408
+Val FDE: 12.69111442565918
+Best Epoch 24:
+Val ADE: 6.378479480743408
+Val FDE: 12.69111442565918
+Epoch:   8%|▊         | 24/300 [1:58:27<22:41:31, 295.98s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   8%|▊         | 25/300 [2:03:23<22:36:54, 296.05s/it]
+Epoch 25:
+Val ADE: 7.203333854675293
+
+Epoch:   9%|▊         | 26/300 [2:08:19<22:31:27, 295.94s/it]
+Epoch 26:
+Val ADE: 7.9486799240112305
+
+Epoch:   9%|▉         | 27/300 [2:13:14<22:26:06, 295.85s/it]
+Epoch 27:
+Val ADE: 7.773000240325928
+
+Epoch:   9%|▉         | 28/300 [2:18:10<22:20:52, 295.78s/it]
+Epoch 28:
+Val ADE: 8.600724220275879
+
+Epoch:  10%|▉         | 29/300 [2:23:06<22:15:50, 295.76s/it]
+Epoch 29:
+Val ADE: 8.640783309936523
+
+Epoch:  10%|█         | 30/300 [2:28:02<22:10:50, 295.74s/it]
+Epoch 30:
+Val ADE: 8.843533515930176
+
+Epoch:  10%|█         | 31/300 [2:32:57<22:05:46, 295.71s/it]
+Epoch 31:
+Val ADE: 7.111325263977051
+
+Epoch:  11%|█         | 32/300 [2:37:53<22:00:45, 295.69s/it]
+Epoch 32:
+Val ADE: 7.213002681732178
+
+Epoch:  11%|█         | 33/300 [2:42:49<21:55:51, 295.70s/it]
+Epoch 33:
+Val ADE: 7.828145980834961
+
+Epoch:  11%|█▏        | 34/300 [2:47:44<21:50:52, 295.69s/it]
+Epoch 34:
+Val ADE: 7.400987148284912
+
+Epoch:  12%|█▏        | 35/300 [2:52:40<21:45:52, 295.67s/it]
+Epoch 35:
+Val ADE: 7.212176322937012
+
+Epoch:  12%|█▏        | 36/300 [2:57:36<21:41:03, 295.69s/it]
+Epoch 36:
+Val ADE: 7.8223443031311035
+
+Epoch:  12%|█▏        | 37/300 [3:02:31<21:36:02, 295.68s/it]
+Epoch 37:
+Val ADE: 7.088367462158203
+
+
+Epoch:  13%|█▎        | 38/300 [3:09:25<21:46:00, 299.09s/it]
+/content/drive/MyDrive/Human-Path-Prediction-master (1)/ynet
+The autoreload extension is already loaded. To reload it, use:
+  %reload_ext autoreload
+Requirement already satisfied: pickle5 in /usr/local/lib/python3.7/dist-packages (0.0.12)
+/usr/local/lib/python3.7/dist-packages/torch/serialization.py:657: SourceChangeWarning: source code of class 'segmentation_models_pytorch.encoders.resnet.ResNetEncoder' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/usr/local/lib/python3.7/dist-packages/torch/serialization.py:657: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Conv2dReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/usr/local/lib/python3.7/dist-packages/torch/serialization.py:657: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Activation' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)

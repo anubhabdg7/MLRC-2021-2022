@@ -1,0 +1,152 @@
+
+Preprocess data
+Prepare Dataset: 100%|██████████| 208/208 [00:00<00:00, 986.12it/s]
+/content/drive/MyDrive/Human-Path-Prediction-master (1)/ynet/utils/dataloader.py:38: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(trajectories), meta, scene_list
+Prepare Dataset: 100%|██████████| 7/7 [00:00<00:00, 861.94it/s]
+Epoch:   0%|          | 0/300 [00:00<?, ?it/s]
+Start training
+208
+Epoch 0:
+Val ADE: 30.448373794555664
+Val FDE: 19.351049423217773
+Best Epoch 0:
+Val ADE: 30.448373794555664
+Val FDE: 19.351049423217773
+Epoch:   0%|          | 0/300 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   0%|          | 1/300 [07:35<37:51:36, 455.84s/it]
+Epoch 1:
+Val ADE: 30.0434513092041
+Val FDE: 17.931123733520508
+Best Epoch 1:
+Val ADE: 30.0434513092041
+Val FDE: 17.931123733520508
+Epoch:   0%|          | 1/300 [07:35<37:51:36, 455.84s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   1%|          | 2/300 [15:10<37:42:18, 455.50s/it]
+Epoch 2:
+Val ADE: 32.29489517211914
+
+Epoch:   1%|          | 3/300 [22:44<37:32:19, 455.01s/it]
+Epoch 3:
+Val ADE: 29.783523559570312
+Val FDE: 16.14065933227539
+Best Epoch 3:
+Val ADE: 29.783523559570312
+Val FDE: 16.14065933227539
+Epoch:   1%|          | 3/300 [22:44<37:32:19, 455.01s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   1%|▏         | 4/300 [30:18<37:24:04, 454.88s/it]
+Epoch 4:
+Val ADE: 36.98674392700195
+
+Epoch:   2%|▏         | 5/300 [37:52<37:15:04, 454.59s/it]
+Epoch 5:
+Val ADE: 25.851057052612305
+Val FDE: 14.113011360168457
+Best Epoch 5:
+Val ADE: 25.851057052612305
+Val FDE: 14.113011360168457
+Epoch:   2%|▏         | 5/300 [37:52<37:15:04, 454.59s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   2%|▏         | 6/300 [45:27<37:07:25, 454.58s/it]
+Epoch 6:
+Val ADE: 30.3872013092041
+
+Epoch:   2%|▏         | 7/300 [53:01<36:58:53, 454.38s/it]
+Epoch 7:
+Val ADE: 27.103139877319336
+
+Epoch:   3%|▎         | 8/300 [1:00:35<36:50:34, 454.23s/it]
+Epoch 8:
+Val ADE: 25.653173446655273
+Val FDE: 13.345087051391602
+Best Epoch 8:
+Val ADE: 25.653173446655273
+Epoch:   3%|▎         | 8/300 [1:00:35<36:50:34, 454.23s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   3%|▎         | 9/300 [1:08:09<36:43:21, 454.30s/it]
+Saved model to: saved_models/Ynet.pt
+Epoch 9:
+Val ADE: 19.001548767089844
+Val FDE: 13.429633140563965
+Best Epoch 9:
+Val ADE: 19.001548767089844
+Epoch:   3%|▎         | 9/300 [1:08:09<36:43:21, 454.30s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   3%|▎         | 10/300 [1:15:44<36:36:16, 454.40s/it]
+Saved model to: saved_models/Ynet.pt
+Epoch 10:
+Val ADE: 14.233152389526367
+Val FDE: 16.696670532226562
+Best Epoch 10:
+Val ADE: 14.233152389526367
+Val FDE: 16.696670532226562
+Epoch:   3%|▎         | 10/300 [1:15:44<36:36:16, 454.40s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   4%|▎         | 11/300 [1:23:18<36:28:34, 454.38s/it]
+Epoch 11:
+Val ADE: 9.356500625610352
+Val FDE: 14.272052764892578
+Best Epoch 11:
+Val ADE: 9.356500625610352
+Val FDE: 14.272052764892578
+Epoch:   4%|▎         | 11/300 [1:23:18<36:28:34, 454.38s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   4%|▍         | 12/300 [1:30:53<36:21:00, 454.38s/it]
+Epoch 12:
+Val ADE: 10.136219024658203
+
+Epoch:   4%|▍         | 13/300 [1:38:27<36:12:50, 454.25s/it]
+Epoch 13:
+Val ADE: 7.396485805511475
+Val FDE: 14.61416244506836
+Best Epoch 13:
+Val ADE: 7.396485805511475
+Val FDE: 14.61416244506836
+Epoch:   4%|▍         | 13/300 [1:38:27<36:12:50, 454.25s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   5%|▍         | 14/300 [1:46:01<36:05:43, 454.35s/it]
+Epoch 14:
+Val ADE: 5.978558540344238
+Val FDE: 15.97451400756836
+Best Epoch 14:
+Val ADE: 5.978558540344238
+Val FDE: 15.97451400756836
+Epoch:   5%|▍         | 14/300 [1:46:01<36:05:43, 454.35s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   5%|▌         | 15/300 [1:53:36<35:58:40, 454.46s/it]
+Epoch 15:
+Val ADE: 4.088808059692383
+Val FDE: 12.756856918334961
+Best Epoch 15:
+Val ADE: 4.088808059692383
+Val FDE: 12.756856918334961
+Epoch:   5%|▌         | 15/300 [1:53:36<35:58:40, 454.46s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   5%|▌         | 16/300 [2:01:10<35:51:22, 454.52s/it]
+Epoch 16:
+Val ADE: 3.8821353912353516
+Val FDE: 11.561885833740234
+Best Epoch 16:
+Val ADE: 3.8821353912353516
+Val FDE: 11.561885833740234
+Epoch:   5%|▌         | 16/300 [2:01:10<35:51:22, 454.52s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   6%|▌         | 17/300 [2:08:45<35:44:07, 454.59s/it]
+Epoch 17:
+Val ADE: 3.3512752056121826
+Val FDE: 11.579163551330566
+Best Epoch 17:
+Val ADE: 3.3512752056121826
+Val FDE: 11.579163551330566
+Epoch:   6%|▌         | 17/300 [2:08:45<35:44:07, 454.59s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   6%|▌         | 18/300 [2:16:20<35:36:38, 454.60s/it]
+Epoch 18:
+Val ADE: 3.8408257961273193
+
+Epoch:   6%|▋         | 19/300 [2:23:54<35:27:50, 454.34s/it]
+Epoch 19:
+Val ADE: 3.566770315170288
+
+Epoch:   7%|▋         | 20/300 [2:31:27<35:19:36, 454.20s/it]
+Epoch 20:
+Val ADE: 3.301231622695923
+Val FDE: 10.414738655090332
+Best Epoch 20:
+Val ADE: 3.301231622695923
+Val FDE: 10.414738655090332
+Epoch:   7%|▋         | 20/300 [2:31:27<35:19:36, 454.20s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   7%|▋         | 21/300 [2:39:02<35:12:30, 454.30s/it]
+Epoch 21:
+Val ADE: 4.333622932434082
+

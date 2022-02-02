@@ -1,0 +1,46 @@
+
+Preprocess data
+Prepare Dataset:   0%|          | 0/8 [00:00<?, ?it/s]
+Requirement already satisfied: pickle5 in /usr/local/lib/python3.7/dist-packages (0.0.12)
+Preprocess data
+Prepare Dataset:   0%|          | 0/8 [00:00<?, ?it/s]
+Preprocess data
+[autoreload of utils.dataloader failed: Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/IPython/extensions/autoreload.py", line 247, in check
+    superreload(m, reload, self.old_objects)
+  File "/content/drive/MyDrive/Human-Path-Prediction-master (1)/ynet/utils/dataloader.py", line 35
+    print(scene_list.shape)
+                          ^
+IndentationError: unindent does not match any outer indentation level
+]
+Prepare Dataset:   0%|          | 0/8 [00:00<?, ?it/s]
+Preprocess data
+Prepare Dataset:   0%|          | 0/8 [00:00<?, ?it/s]
+Preprocess data
+Prepare Dataset:   0%|          | 0/8 [00:00<?, ?it/s]
+Preprocess data
+[autoreload of utils.dataloader failed: Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/IPython/extensions/autoreload.py", line 247, in check
+    superreload(m, reload, self.old_objects)
+  File "/content/drive/MyDrive/Human-Path-Prediction-master (1)/ynet/utils/dataloader.py", line 31
+    print(total_len)
+                   ^
+IndentationError: unindent does not match any outer indentation level
+]
+Prepare Dataset:   0%|          | 0/8 [00:00<?, ?it/s]
+Preprocess data
+28
+Prepare Dataset:   0%|          | 0/8 [00:00<?, ?it/s]
+Preprocess data
+28
+Prepare Dataset:   0%|          | 0/8 [00:00<?, ?it/s]
+Requirement already satisfied: pickle5 in /usr/local/lib/python3.7/dist-packages (0.0.12)
+/usr/local/lib/python3.7/dist-packages/torch/serialization.py:657: SourceChangeWarning: source code of class 'segmentation_models_pytorch.encoders.resnet.ResNetEncoder' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/usr/local/lib/python3.7/dist-packages/torch/serialization.py:657: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Conv2dReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/usr/local/lib/python3.7/dist-packages/torch/serialization.py:657: SourceChangeWarning: source code of class 'segmentation_models_pytorch.base.modules.Activation' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+Preprocess data
+20
+Prepare Dataset:   0%|          | 0/8 [00:00<?, ?it/s]

@@ -1,0 +1,178 @@
+2022-01-28 13:23:00,870 INFO    MainThread:460 [wandb_setup.py:_flush():71] setting env: {}
+2022-01-28 13:23:00,870 INFO    MainThread:460 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-28 13:23:00,870 INFO    MainThread:460 [wandb_setup.py:_flush():71] setting login settings: {'api_key': '***REDACTED***'}
+2022-01-28 13:23:00,871 INFO    MainThread:460 [wandb_init.py:_log_setup():371] Logging user logs to w_andb/wandb/run-20220128_132300-3287nqsn/logs/debug.log
+2022-01-28 13:23:00,871 INFO    MainThread:460 [wandb_init.py:_log_setup():372] Logging internal logs to w_andb/wandb/run-20220128_132300-3287nqsn/logs/debug-internal.log
+2022-01-28 13:23:00,871 INFO    MainThread:460 [wandb_init.py:_jupyter_setup():321] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f4f93f46350>
+2022-01-28 13:23:00,871 INFO    MainThread:460 [wandb_init.py:init():404] calling init triggers
+2022-01-28 13:23:00,871 INFO    MainThread:460 [wandb_init.py:init():411] wandb.init called with sweep_config: {}
+config: {'resize': 0.33, 'batch_size': 8, 'viz_epoch': 10, 'learning_rate': 0.0001, 'num_epochs': 300, 'encoder_channels': [32, 32, 64, 64, 64], 'decoder_channels': [64, 64, 64, 32, 32], 'waypoints': [14, 29], 'temperature': 1.8, 'segmentation_model_fp': 'segmentation_models/inD_segmentation.pth', 'semantic_classes': 6, 'loss_scale': 1000, 'kernlen': 31, 'nsig': 4, 'use_features_only': False, 'unfreeze': 100, 'use_TTST': True, 'rel_threshold': 0.002, 'use_CWS': True, 'CWS_params': {'sigma_factor': 6, 'ratio': 2, 'rot': True}}
+2022-01-28 13:23:00,872 INFO    MainThread:460 [wandb_init.py:init():460] starting backend
+2022-01-28 13:23:00,872 INFO    MainThread:460 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-01-28 13:23:00,905 INFO    MainThread:460 [backend.py:ensure_launched():216] starting backend process...
+2022-01-28 13:23:00,935 INFO    MainThread:460 [backend.py:ensure_launched():222] started backend process with pid: 552
+2022-01-28 13:23:00,937 INFO    MainThread:460 [wandb_init.py:init():469] backend started and connected
+2022-01-28 13:23:00,978 INFO    MainThread:460 [wandb_run.py:_label_probe_notebook():911] probe notebook
+2022-01-28 13:23:02,721 INFO    MainThread:460 [wandb_init.py:init():533] updated telemetry
+2022-01-28 13:23:02,730 INFO    MainThread:460 [wandb_init.py:init():563] communicating current version
+2022-01-28 13:23:02,812 INFO    MainThread:460 [wandb_init.py:init():568] got version response 
+2022-01-28 13:23:02,813 INFO    MainThread:460 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-28 13:23:02,924 INFO    MainThread:460 [wandb_init.py:init():606] starting run threads in backend
+2022-01-28 13:23:05,271 INFO    MainThread:460 [wandb_run.py:_console_start():1810] atexit reg
+2022-01-28 13:23:05,276 INFO    MainThread:460 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.WRAP
+2022-01-28 13:23:05,277 INFO    MainThread:460 [wandb_run.py:_redirect():1721] Wrapping output streams.
+2022-01-28 13:23:05,281 INFO    MainThread:460 [wandb_run.py:_redirect():1745] Redirects installed.
+2022-01-28 13:23:05,281 INFO    MainThread:460 [wandb_init.py:init():633] run started, returning control to user process
+2022-01-28 13:23:05,281 INFO    MainThread:460 [wandb_watch.py:watch():43] Watching
+2022-01-28 13:23:05,298 INFO    MainThread:460 [wandb_init.py:_pause_backend():284] pausing backend
+2022-01-28 13:23:05,299 INFO    MainThread:460 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-01-28 13:23:07,213 INFO    MainThread:460 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4f93710110>
+2022-01-28 13:23:09,113 INFO    MainThread:460 [wandb_init.py:_resume_backend():293] resuming backend
+2022-01-28 16:33:01,823 INFO    MainThread:460 [wandb_init.py:_pause_backend():284] pausing backend
+2022-01-28 16:33:01,823 INFO    MainThread:460 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-01-28 16:33:20,777 INFO    MainThread:460 [wandb_init.py:_resume_backend():293] resuming backend
+2022-01-28 16:33:20,781 INFO    MainThread:460 [wandb_init.py:_pause_backend():284] pausing backend
+2022-01-28 16:33:20,781 INFO    MainThread:460 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-01-28 16:33:22,310 INFO    MainThread:460 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4f48004fd0>
+2022-01-28 16:33:26,796 INFO    MainThread:460 [wandb_init.py:_resume_backend():293] resuming backend
+2022-01-28 16:33:26,798 INFO    MainThread:460 [wandb_init.py:_pause_backend():284] pausing backend
+2022-01-28 16:33:26,799 INFO    MainThread:460 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-01-28 16:33:28,276 INFO    MainThread:460 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4f481d1610>
+2022-01-28 16:33:28,559 INFO    MainThread:460 [wandb_init.py:_resume_backend():293] resuming backend
+2022-01-28 16:33:28,562 INFO    MainThread:460 [wandb_init.py:_pause_backend():284] pausing backend
+2022-01-28 16:33:28,563 INFO    MainThread:460 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-01-28 16:33:30,135 INFO    MainThread:460 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4f481d1210>
+2022-01-28 16:33:35,391 INFO    MainThread:460 [wandb_init.py:_resume_backend():293] resuming backend
+2022-01-28 16:33:35,396 INFO    MainThread:460 [wandb_init.py:_pause_backend():284] pausing backend
+2022-01-28 16:33:35,397 INFO    MainThread:460 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-01-28 16:33:37,181 INFO    MainThread:460 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4f4801dcd0>
+2022-01-28 16:33:43,588 INFO    MainThread:460 [wandb_init.py:_resume_backend():293] resuming backend
+2022-01-28 16:33:43,600 INFO    MainThread:460 [wandb_init.py:_pause_backend():284] pausing backend
+2022-01-28 16:33:43,600 INFO    MainThread:460 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-01-28 16:33:45,327 INFO    MainThread:460 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4f481c8910>
+2022-01-28 16:33:48,705 INFO    MainThread:460 [wandb_init.py:_resume_backend():293] resuming backend
+2022-01-28 16:33:51,302 INFO    MainThread:460 [wandb_init.py:_pause_backend():284] pausing backend
+2022-01-28 16:33:51,302 INFO    MainThread:460 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-01-28 16:33:52,725 INFO    MainThread:460 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4f480c5990>
+2022-01-28 16:33:52,756 INFO    MainThread:460 [wandb_init.py:_resume_backend():293] resuming backend
+2022-01-28 16:33:52,771 INFO    MainThread:460 [wandb_init.py:_pause_backend():284] pausing backend
+2022-01-28 16:33:52,771 INFO    MainThread:460 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-01-28 16:33:54,318 INFO    MainThread:460 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4f481160d0>
+2022-01-28 16:33:54,348 INFO    MainThread:460 [wandb_init.py:_resume_backend():293] resuming backend
+2022-01-28 16:33:54,753 INFO    MainThread:460 [wandb_init.py:_pause_backend():284] pausing backend
+2022-01-28 16:33:54,754 INFO    MainThread:460 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-01-28 16:33:56,356 INFO    MainThread:460 [wandb_init.py:_pause_backend():288] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4f4816c790>
+2022-01-28 16:33:56,393 INFO    MainThread:460 [wandb_init.py:_resume_backend():293] resuming backend
+2022-01-28 16:33:56,453 INFO    MainThread:460 [wandb_setup.py:_flush():71] setting env: {}
+2022-01-28 16:33:56,454 INFO    MainThread:460 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-28 16:33:56,454 INFO    MainThread:460 [wandb_setup.py:_flush():71] setting login settings: {'api_key': '***REDACTED***'}
+2022-01-28 16:33:56,454 INFO    MainThread:460 [wandb_init.py:_log_setup():371] Logging user logs to w_andb/wandb/run-20220128_163356-2zg8w373/logs/debug.log
+2022-01-28 16:33:56,454 INFO    MainThread:460 [wandb_init.py:_log_setup():372] Logging internal logs to w_andb/wandb/run-20220128_163356-2zg8w373/logs/debug-internal.log
+2022-01-28 16:33:56,455 INFO    MainThread:460 [wandb_init.py:init():404] calling init triggers
+2022-01-28 16:33:56,455 INFO    MainThread:460 [wandb_init.py:init():411] wandb.init called with sweep_config: {}
+config: {'resize': 0.33, 'batch_size': 8, 'viz_epoch': 10, 'learning_rate': 0.0001, 'num_epochs': 300, 'encoder_channels': [32, 32, 64, 64, 64], 'decoder_channels': [64, 64, 64, 32, 32], 'waypoints': [14, 29], 'temperature': 1.8, 'segmentation_model_fp': 'segmentation_models/inD_segmentation.pth', 'semantic_classes': 6, 'loss_scale': 1000, 'kernlen': 31, 'nsig': 4, 'use_features_only': False, 'unfreeze': 100, 'use_TTST': True, 'rel_threshold': 0.002, 'use_CWS': True, 'CWS_params': {'sigma_factor': 6, 'ratio': 2, 'rot': True}}
+2022-01-28 16:33:56,455 INFO    MainThread:460 [wandb_init.py:init():426] re-initializing run, found existing run on stack: 3287nqsn
+2022-01-28 16:33:56,457 INFO    MainThread:460 [wandb_run.py:finish():1457] finishing run agv/ynet/3287nqsn
+2022-01-28 16:33:56,468 INFO    MainThread:460 [jupyter.py:save_history():458] saving 20 cells to _session_history.ipynb
+2022-01-28 16:33:56,479 INFO    MainThread:460 [wandb_run.py:_config_callback():956] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2022-01-28 16:33:56,514 INFO    MainThread:460 [jupyter.py:save_ipynb():377] looking for notebook: fileId=1q4SbtOvFxyFsAzps-SKXV728GhvPTY3S
+2022-01-28 16:33:58,047 INFO    MainThread:460 [wandb_init.py:_jupyter_teardown():302] saved code and history: <wandb.sdk.wandb_artifacts.Artifact object at 0x7f4f4800e810>
+2022-01-28 16:33:58,047 INFO    MainThread:460 [wandb_init.py:_jupyter_teardown():303] cleaning up jupyter logic
+2022-01-28 16:33:58,047 INFO    MainThread:460 [wandb_run.py:_atexit_cleanup():1780] got exitcode: 0
+2022-01-28 16:33:58,057 INFO    MainThread:460 [wandb_run.py:_restore():1752] restore
+2022-01-28 16:33:59,374 INFO    MainThread:460 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 11
+}
+pusher_stats {
+  uploaded_bytes: 685193
+  total_bytes: 685193
+}
+
+2022-01-28 16:33:59,550 INFO    MainThread:460 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 11
+}
+pusher_stats {
+  uploaded_bytes: 685193
+  total_bytes: 685193
+}
+
+2022-01-28 16:33:59,652 INFO    MainThread:460 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+  artifact_count: 11
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 685193
+  total_bytes: 893226
+}
+
+2022-01-28 16:33:59,757 INFO    MainThread:460 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+  artifact_count: 11
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 893226
+  total_bytes: 893226
+}
+
+2022-01-28 16:33:59,860 INFO    MainThread:460 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+  artifact_count: 11
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 893226
+  total_bytes: 893226
+}
+
+2022-01-28 16:33:59,963 INFO    MainThread:460 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+  artifact_count: 11
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 893226
+  total_bytes: 893226
+}
+
+2022-01-28 16:34:00,066 INFO    MainThread:460 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+  artifact_count: 11
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 893226
+  total_bytes: 893226
+}
+
+2022-01-28 16:34:00,596 INFO    MainThread:460 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+  artifact_count: 11
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 893226
+  total_bytes: 893226
+}
+
+2022-01-28 16:34:00,789 INFO    MainThread:460 [wandb_run.py:_wait_for_finish():1912] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  artifact_count: 11
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 893226
+  total_bytes: 893226
+}
+local_info {
+}
+
+2022-01-28 16:34:02,314 INFO    MainThread:460 [wandb_run.py:_append_history():2130] rendering history
+2022-01-28 16:34:02,314 INFO    MainThread:460 [wandb_run.py:_append_summary():2085] rendering summary
+2022-01-28 16:34:02,315 INFO    MainThread:460 [wandb_run.py:_append_files():2180] logging synced files

@@ -1,0 +1,132 @@
+
+Preprocess data
+Prepare Dataset: 100%|██████████| 208/208 [00:00<00:00, 697.66it/s]
+/content/drive/MyDrive/Human-Path-Prediction-master (1)/ynet/utils/dataloader.py:38: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(trajectories), meta, scene_list
+Prepare Dataset: 100%|██████████| 7/7 [00:00<00:00, 930.53it/s]
+Epoch:   0%|          | 0/300 [00:00<?, ?it/s]
+Start training
+Epoch:   0%|          | 0/300 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   0%|          | 1/300 [04:37<23:01:34, 277.24s/it]
+Epoch 0:
+Val ADE: 25.005741119384766
+Val FDE: 22.78668212890625
+Best Epoch 0:
+Val ADE: 25.005741119384766
+Val FDE: 22.78668212890625
+Saved model to: saved_models/Ynet.pt
+Epoch 1:
+Val ADE: 17.944425582885742
+Val FDE: 15.54238510131836
+Best Epoch 1:
+Val ADE: 17.944425582885742
+Epoch:   0%|          | 1/300 [04:37<23:01:34, 277.24s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   1%|          | 2/300 [09:14<22:57:02, 277.26s/it]
+Saved model to: saved_models/Ynet.pt
+Epoch 2:
+Val ADE: 18.312713623046875
+
+Epoch:   1%|          | 3/300 [13:51<22:51:34, 277.09s/it]
+Epoch 3:
+Val ADE: 21.24091339111328
+
+Epoch:   1%|▏         | 4/300 [18:27<22:46:24, 276.97s/it]
+Epoch 4:
+Val ADE: 29.786670684814453
+
+Epoch:   2%|▏         | 5/300 [23:04<22:41:21, 276.89s/it]
+Epoch 5:
+Val ADE: 27.970977783203125
+
+Epoch:   2%|▏         | 6/300 [27:41<22:36:24, 276.82s/it]
+Epoch 6:
+Val ADE: 28.375518798828125
+
+Epoch:   2%|▏         | 7/300 [32:17<22:31:35, 276.78s/it]
+Epoch 7:
+Val ADE: 18.906888961791992
+
+Epoch:   3%|▎         | 8/300 [36:54<22:26:43, 276.73s/it]
+Epoch 8:
+Val ADE: 16.09307289123535
+Val FDE: 12.842452049255371
+Best Epoch 8:
+Val ADE: 16.09307289123535
+Val FDE: 12.842452049255371
+Epoch:   3%|▎         | 8/300 [36:54<22:26:43, 276.73s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   3%|▎         | 9/300 [41:31<22:22:58, 276.90s/it]
+Epoch 9:
+Val ADE: 12.745099067687988
+Val FDE: 13.38088607788086
+Best Epoch 9:
+Val ADE: 12.745099067687988
+Val FDE: 13.38088607788086
+Epoch:   3%|▎         | 9/300 [41:31<22:22:58, 276.90s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   3%|▎         | 10/300 [46:09<22:18:55, 277.02s/it]
+Epoch 10:
+Val ADE: 9.213777542114258
+Val FDE: 10.790136337280273
+Best Epoch 10:
+Val ADE: 9.213777542114258
+Val FDE: 10.790136337280273
+Epoch:   3%|▎         | 10/300 [46:09<22:18:55, 277.02s/it][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   4%|▎         | 11/300 [50:46<22:14:40, 277.09s/it]
+Epoch 11:
+Val ADE: 9.52216911315918
+
+
+Epoch:   4%|▍         | 12/300 [58:57<23:34:56, 294.78s/it]
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f941139cb50>> (for post_run_cell):
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f941139cb50>> (for pre_run_cell):
+/content/drive/MyDrive/Human-Path-Prediction-master (1)/ynet
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f941139cb50>> (for post_run_cell):
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface.py", line 125, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 388, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f941139cb50>> (for pre_run_cell):
+/content/drive/MyDrive/Human-Path-Prediction-master (1)/ynet
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f941139cb50>> (for post_run_cell):
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f941139cb50>> (for pre_run_cell):
+ config				   requirements.txt
+ data				   saved_models
+'evaluate_inD_longterm(1).ipynb'   segmentation_models
+ evaluate_inD_longterm.ipynb	   test.py
+ evaluate_SDD_longterm.ipynb	   train_inD_longterm.ipynb
+ evaluate_SDD_trajnet.ipynb	   train.py
+ images				   train_SDD_longterm.ipynb
+ model.py			   train_SDD_trajnet.ipynb
+ pretrained_models		   utils
+ __pycache__			   w_andb
+ README.md			   weights_and_biases.py
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f941139cb50>> (for post_run_cell):
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface.py", line 114, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 378, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown

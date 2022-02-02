@@ -1,0 +1,16 @@
+
+Preprocess data
+Prepare Dataset: 100%|██████████| 184/184 [00:00<00:00, 528.09it/s]
+/content/drive/MyDrive/Human-Path-Prediction-master/ynet/utils/dataloader.py:35: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return np.array(trajectories), meta, scene_list
+Prepare Dataset: 100%|██████████| 11/11 [00:00<00:00, 485.76it/s]
+Start training
+Epoch:   0%|          | 0/300 [00:00<?, ?it/s]
+Epoch 0:
+Val ADE: 282.189697265625
+Val FDE: 161.5618896484375
+Best Epoch 0:
+Val ADE: 282.189697265625
+Val FDE: 161.5618896484375
+Epoch:   0%|          | 0/300 [00:00<?, ?it/s][34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Epoch:   0%|          | 0/300 [27:30<?, ?it/s]
